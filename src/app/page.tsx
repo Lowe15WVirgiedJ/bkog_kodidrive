@@ -126,7 +126,7 @@ export default function Home() {
                 disabled={isLoading || !pin}
               >
                 <span className="text-lg font-bold ">
-                  {isLoading ? "Activating..." : "Activate Kodi"}
+                  {isLoading ? "Đang kết nối..." : "Kết nối"}
                 </span>
               </Button>
             </CardFooter>
