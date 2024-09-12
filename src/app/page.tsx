@@ -136,20 +136,6 @@ export default function Home() {
           </form>
         </Card>
       </div>
-      <footer className="flex items-center h-[10%]">
-        <Link
-          href="/privacy-policy"
-          className={buttonVariants({ variant: "link" })}
-        >
-          Chính sách bảo mật
-        </Link>
-        <Link
-          href="/terms-and-conditions"
-          className={buttonVariants({ variant: "link" })}
-        >
-          Khác
-        </Link>
-      </footer>
     </main>
   );
 }
