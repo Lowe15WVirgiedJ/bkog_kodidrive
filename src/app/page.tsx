@@ -66,15 +66,12 @@ export default function Home() {
               <span className="text-[#353132] font-bold text-3xl tracking-tighter leading-none pr-2">
                 Kết nối Kodi với Google Drive
               </span>
-              <Badge className="absolute align-text-top">v1vh</Badge>
+              <Badge className="absolute align-text-top">v1.0.0 (vh)</Badge>
             </CardTitle>
           </CardHeader>
           <form onSubmit={handleAuth}>
             <CardContent className="grid gap-8">
               <CardDescription className="text-center grid">
-                <span className="text-[#353132] font-bold text-xl tracking-tighter leading-none">
-                  Kết nối
-                </span>
                 <span>Hãy nhập CODE hiển thị trong ứng dụng Kodi.</span>
               </CardDescription>
               <div>
