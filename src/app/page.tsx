@@ -64,7 +64,7 @@ export default function Home() {
           <CardHeader>
             <CardTitle className="text-center relative">
               <span className="text-[#353132] font-bold text-3xl tracking-tighter leading-none pr-2">
-                Kết nối Kodi với Google Drive
+                Google Drive for Kodi
               </span>
               <Badge className="absolute align-text-top">v1.0.0 (vh)</Badge>
             </CardTitle>
