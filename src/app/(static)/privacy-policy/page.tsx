@@ -2,24 +2,14 @@ export default function PrivacyPolicyPage() {
     return (
         <div className="min-h-screen bg-gray-100 p-8">
             <div className="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
-                <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
+                <h1 className="text-3xl font-bold mb-4">Chính sách bảo mật</h1>
                 <p className="mb-4">
-                    The add-on stores only your account name, account id, and the access data in your Kodi device.
-                    This is used to display your account as an option menu in Kodi and to access your drive files.
+                    Mọi dữ liệu liên quan đến tài khoản cá nhân chỉ lưu trữ trên thiết bị cài đặt Kodi của bạn.
                 </p>
                 <p className="mb-4">
-                    The add-on access your files information only from your Kodi device directly to the cloud drive provider.
-                    The add-on uses your files information for the purpose of displaying it in Kodi so you can play your video, music or you can view your pictures.
+                    Add-on Google Drive truy cập và lấy thông tin dữ liệu trong Google Drive của bạn trực tiếp từ ứng dụng Kodi và không thông qua bên thứ 3 nào.
                 </p>
-                <p className="mb-4">
-                    The add-on transmits or shares information only to the developer of this add-on if you explicitly agreed to it and only if an error happened,
-                    for the sole purpose of helping to resolve the issues quickly.
-                </p>
-                <p className="mb-4">
-                    This information includes the file id, filename, ip address and never includes sensitive information like access codes, emails or user names.
-                    You can always disable this option in the configuration menu.
-                </p>
-                <h2 className="text-2xl font-bold mb-4">Each scope requested by the add-on has a specific use and need:</h2>
+                <h2 className="text-2xl font-bold mb-4">Phần dành cho nhà phát triển:</h2>
                 <h3 className="text-xl font-semibold mb-2">Google Drive:</h3>
                 <table className="min-w-full bg-white">
                     <thead>
