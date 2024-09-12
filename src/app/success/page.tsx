@@ -16,18 +16,17 @@ export default function SuccessPage() {
         <CardHeader>
           <CardTitle className="text-center relative">
             <span className="text-[#353132] font-bold text-3xl tracking-tighter leading-none pr-2">
-              Activation Successful!
+              Kết nối với Google Drive thành công!
             </span>
           </CardTitle>
           <CardDescription>
-            Your Kodi device is now successfully linked. Enjoy your streaming
-            experience without any interruptions.
+            Ứng dụng Kodi đã kết nối thành công với tài khoản Google Drive. Quay lại ứng dụng Kodi để xem kết quả.
           </CardDescription>
         </CardHeader>
         <CardContent className="grid gap-8"></CardContent>
         <CardFooter>
           <Link href={"/"} className={buttonVariants({ variant: "link" })}>
-            Return to Home
+            Trở lại trang chủ
           </Link>
         </CardFooter>
       </Card>
