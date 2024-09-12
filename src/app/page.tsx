@@ -64,23 +64,23 @@ export default function Home() {
           <CardHeader>
             <CardTitle className="text-center relative">
               <span className="text-[#353132] font-bold text-3xl tracking-tighter leading-none pr-2">
-                Kodi Sync
+                Kết nối Kodi với Google Drive
               </span>
-              <Badge className="absolute align-text-top">v1.0.0</Badge>
+              <Badge className="absolute align-text-top">v1vh</Badge>
             </CardTitle>
           </CardHeader>
           <form onSubmit={handleAuth}>
             <CardContent className="grid gap-8">
               <CardDescription className="text-center grid">
                 <span className="text-[#353132] font-bold text-xl tracking-tighter leading-none">
-                  Activate your Kodi
+                  Kết nối
                 </span>
-                <span>Enter the PIN shown on your Kodi device.</span>
+                <span>Hãy nhập CODE hiển thị trong ứng dụng Kodi.</span>
               </CardDescription>
               <div>
                 {isError && (
                   <span className="text-center text-destructive text-sm">
-                    Invalid PIN. Please try again.
+                    CODE chưa đúng. Hãy nhập lại.
                   </span>
                 )}
                 <InputOTP
@@ -141,13 +141,13 @@ export default function Home() {
           href="/privacy-policy"
           className={buttonVariants({ variant: "link" })}
         >
-          Privacy Policy
+          Chính sách bảo mật
         </Link>
         <Link
           href="/terms-and-conditions"
           className={buttonVariants({ variant: "link" })}
         >
-          Terms and Conditions
+          Khác
         </Link>
       </footer>
     </main>
